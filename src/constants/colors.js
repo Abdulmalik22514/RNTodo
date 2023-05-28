@@ -5,4 +5,6 @@ export const COLORS = {
   white: '#FFFFFF',
   grey: '#242424',
   purple: '#7f7fff',
+  blue: '#0080ff',
+  offWhite: '#777777',
 };
