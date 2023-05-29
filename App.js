@@ -7,11 +7,11 @@ import RootNavigation from './src/navigations/RootNav';
 
 const App = () => {
   return (
-    // <Provider store={store}>
-    //   <PersistGate persistor={persistor}>
-    //   </PersistGate>
-    // </Provider>
-    <RootNavigation />
+    <Provider store={store}>
+      <PersistGate persistor={persistor}>
+        <RootNavigation />
+      </PersistGate>
+    </Provider>
   );
 };
 

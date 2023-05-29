@@ -13,7 +13,7 @@ const HomeTabs = () => {
       screenOptions={{
         tabBarShowLabel: false,
         tabBarStyle: {
-          backgroundColor: '#E3E3E3',
+          backgroundColor: 'white',
           height: Platform.OS === 'android' ? 60 : 80,
         },
         headerShown: false,

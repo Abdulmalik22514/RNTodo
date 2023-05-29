@@ -26,7 +26,7 @@ const AppStack = () => {
       }}>
       <Stack.Screen name="SplashScreen" component={SplashScreen} />
       <Stack.Screen name="MyTasks" component={HomeTabs} />
-      <Stack.Screen name="Task" component={TaskScreen} />
+      <Stack.Screen name="TaskScreen" component={TaskScreen} />
     </Stack.Navigator>
   );
 };

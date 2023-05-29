@@ -11,15 +11,13 @@ const SplashScreen = ({navigation}) => {
   }, []);
 
   return (
-    <Container>
+    <Container noTopInset>
       <View style={styles.container}>
         <Image
           source={require('../../assets/checklist.png')}
           style={styles.logo}
         />
-        <Text style={[GlobalStyle.CustomFontBig, styles.text]}>
-          RNTodo-List
-        </Text>
+        <Text style={styles.text}>RNTodo-List</Text>
       </View>
     </Container>
   );
