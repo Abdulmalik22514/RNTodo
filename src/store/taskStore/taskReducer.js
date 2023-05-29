@@ -1,4 +1,4 @@
-import {SET_TASKS, SET_TASK_ID} from './actions';
+import {SET_TASKS, SET_TASK_ID} from './taskActions';
 
 const initialState = {
   tasks: [],
