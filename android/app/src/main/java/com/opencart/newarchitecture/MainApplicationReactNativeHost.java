@@ -1,4 +1,4 @@
-package com.opencart.newarchitecture;
+package com.RNTodo.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.opencart.BuildConfig;
-import com.opencart.newarchitecture.components.MainComponentsRegistry;
-import com.opencart.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.RNTodo.BuildConfig;
+import com.RNTodo.newarchitecture.components.MainComponentsRegistry;
+import com.RNTodo.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

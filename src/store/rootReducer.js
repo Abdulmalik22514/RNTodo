@@ -1,8 +1,6 @@
 import {combineReducers} from 'redux';
-import dogsReducer from './breedStore/dogsReducer';
-import authReducer from './authStore/authReducer';
+import taskReducer from './taskStore/taskReducer';
 
 export default combineReducers({
-  dogsReducer,
-  authReducer,
+  taskReducer,
 });

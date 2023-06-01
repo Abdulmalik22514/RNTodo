@@ -1,21 +1,18 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-import TabIcon from 'react-native-vector-icons/Ionicons';
+import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import {COLORS} from '../constants/colors';
 
 const TabItem = ({focused, icon, label}) => {
   return (
     <View style={styles.tabContainer}>
-      <TabIcon
+      <FontAwesome5
         name={icon}
-        size={23}
-        color={focused ? COLORS.orange : COLORS.grey}
+        size={focused ? 25 : 20}
+        color={focused ? '#0080ff' : '#777777'}
       />
       <Text
-        style={[
-          styles.tabIconLabel,
-          {color: focused ? COLORS.orange : COLORS.grey},
-        ]}>
+        style={[styles.tabIconLabel, {color: focused ? '#0080ff' : '#777777'}]}>
         {label}
       </Text>
     </View>
@@ -29,7 +26,8 @@ const styles = StyleSheet.create({
     paddingTop: 10,
   },
   tabIconLabel: {
-    fontSize: 20,
+    fontSize: 15,
+    fontWeight: 'bold',
   },
 });
 

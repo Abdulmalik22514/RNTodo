@@ -1,4 +1,4 @@
-package com.opencart;
+package com.RNTodo;
 import android.os.Bundle;
 
 import com.facebook.react.ReactActivity;
